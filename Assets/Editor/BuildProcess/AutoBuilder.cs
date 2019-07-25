@@ -139,10 +139,10 @@ public class AutoBuilder : ScriptableObject
     {
         string tempVersionCodeString = GetArg("-VERSION_CODE");
         PlayerSettings.Android.bundleVersionCode = int.Parse(tempVersionCodeString);
-        PlayerSettings.Android.keyaliasName = "<key>";
-        PlayerSettings.Android.keystoreName = "keystorefile";
-        PlayerSettings.Android.keyaliasPass = GetArg("-pass");
-        PlayerSettings.Android.keystorePass = GetArg("-pass");
+        // PlayerSettings.Android.keyaliasName = "<key>";
+        // PlayerSettings.Android.keystoreName = "keystorefile";
+        // PlayerSettings.Android.keyaliasPass = GetArg("-pass");
+        // PlayerSettings.Android.keystorePass = GetArg("-pass");
     }
 
     static void SetiOSInfo()
